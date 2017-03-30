@@ -15,6 +15,7 @@ echo "<script type='text/javascript'>ROW_COUNT=".$rowCount."</script>";
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script type="text/javascript" src="js/caroussel_accueil.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/caroussel_accueil.css" />
+		<script src="utils/ga.js" type="text/javascript"></script>
 		<?php
 			include_once("utils/include_ga.html");
 		?>
@@ -24,10 +25,12 @@ echo "<script type='text/javascript'>ROW_COUNT=".$rowCount."</script>";
 		<button id="btn">Click me</button>
 		<script>
 			$("#btn").click(function() {
-				$.post("https://www.google-analytics.com/collect?v=1&tid=UA-96477511-1&cid=110037044258747808257&t=event&ec=video&ea=play&el=holiday&ev=300", function(data, status) {
+				/*$.post("https://www.google-analytics.com/collect?v=1&tid=UA-96477511-1&cid=110037044258747808257&t=event&ec=video&ea=play&el=holiday&ev=300", function(data, status) {
 					console.log(data);
 					console.log(status);
-				})
+				})*/
+				event("iAdvize", "test", "Chat", "300");
+
 			}); 
 		</script>
 		<div id="bg">
