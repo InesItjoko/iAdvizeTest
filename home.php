@@ -24,7 +24,9 @@ echo "<script type='text/javascript'>ROW_COUNT=".$rowCount."</script>";
 		<button id="btn">Click me</button>
 		<script>
 			$("#btn").click(function() {
-				$.get("http://www.google-analytics.com/v=1&tid=UA-96477511-1&cid=110037044258747808257&t=event&ec=video&ea=play&el=holiday&ev=300")
+				$.post("https://www.google-analytics.com/collect?v=1&tid=UA-96477511-1&cid=110037044258747808257&t=event&ec=video&ea=play&el=holiday&ev=300", function(data, status) {
+					$("#btn").value("success" + data + " - " + status);
+				})
 			}); 
 		</script>
 		<div id="bg">
