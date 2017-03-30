@@ -21,6 +21,12 @@ echo "<script type='text/javascript'>ROW_COUNT=".$rowCount."</script>";
 	</head>
 
 	<body>
+		<button id="btn">Click me</button>
+		<script>
+			$("#btn").click(function() {
+				$.get("http://www.google-analytics.com/v=1&tid=UA-96477511-1&cid=110037044258747808257&t=event&ec=video&ea=play&el=holiday&ev=300")
+			}); 
+		</script>
 		<div id="bg">
 			<div id="outer">
 				<?php
