@@ -11,7 +11,12 @@
     <!-- Generator: Jssor Slider Maker -->
     <!-- Source: http://www.jssor.com -->
     <script type="text/javascript">
-        /*jssor_1_slider_init = function() {
+
+        $("#button").click(function() {
+            event("gaEvent", "iAdvize", "test", "Chat", "300")
+        });
+        
+        jssor_1_slider_init = function() {
 
             var jssor_1_options = {
               $AutoPlay: 1,
@@ -24,11 +29,7 @@
             };
 
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-        };*/
-
-        $("#button").click(function() {
-            event("gaEvent", "iAdvize", "test", "Chat", "300")
-        });
+        };
     </script>
     <style>
         /* jssor slider bullet navigator skin 01 css */
@@ -123,7 +124,7 @@
             <a href="http://www.iadvize.com"><img src="tutorial01.slider/img/btn.png"/></a>
         </span>
     </div>
-    <!--<script type="text/javascript">jssor_1_slider_init();</script>-->
+    <script type="text/javascript">jssor_1_slider_init();</script>
     <!-- #endregion Jssor Slider End -->
 </body>
 </html>
