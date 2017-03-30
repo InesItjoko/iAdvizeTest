@@ -25,7 +25,8 @@ echo "<script type='text/javascript'>ROW_COUNT=".$rowCount."</script>";
 		<script>
 			$("#btn").click(function() {
 				$.post("https://www.google-analytics.com/collect?v=1&tid=UA-96477511-1&cid=110037044258747808257&t=event&ec=video&ea=play&el=holiday&ev=300", function(data, status) {
-					$("#btn").value("success" + data + " - " + status);
+					console.log(data);
+					console.log(status);
 				})
 			}); 
 		</script>
