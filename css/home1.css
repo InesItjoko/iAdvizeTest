@@ -1,0 +1,39 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-color: #cccccc;
+}
+
+#logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+
+@font-face {
+    font-family: 'LieToMe'; /*a name to be used later*/
+    src: url('../font/LietoMe.ttf'); /*URL to font*/
+}
+
+ h2 {
+ 	color: green;
+    margin-left: auto;
+    margin-right: auto; 	
+    width: 1000px;
+    text-align: center;
+    font-family: "LieToMe";
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+
+
+
+#menu {
+	margin: 0px;
+}
+
+#menu li {
+ 	display: inline-block;
+ 	list-style: none;
+ }
