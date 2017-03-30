@@ -1,0 +1,120 @@
+.petstore_cellule_float {
+        float : left;
+        width : 47%;
+        border : 1px solid #CCDFEF;
+        max-height : 30%;
+        margin-bottom : 1%;
+		margin-top : 3%;
+        /*margin-left : 3%;*/
+        margin-right : 1%;
+        height : 250px;
+}
+ 
+h3 {
+        text-decoration : underline;
+        color : #507080;
+        font-family : "trebuchet ms", verdana, sans-serif;
+        font-variant : small-caps;
+        font-weight : bold;
+        font-size : 17px;
+}
+
+#titre {
+		background-color : #00FF7F;
+		border-radius : 5px;
+}
+
+#Profile-UserInfo-List {
+	padding-left : 1%;
+	width : 99%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-bottom : 2%;
+	
+	-moz-border-radius : 2% 0 2% 0;
+	border-top-left-radius : 2%;
+	-webkit-border-top-left-radius :  2%;
+	-khtml-border-top-left-radius :  2%;
+	
+	-webkit-border-bottom-right-radius  : 2%;
+	-khtml-border-bottom-right-radius  : 2%;
+	border-bottom-right-radius : 2%;
+}
+
+.Profile-UserInfo-List-Value {
+font-weight: bold;
+
+
+}
+
+#loginBox  {
+	position: absolute;
+	top: 0;
+	right: 24px;
+	height: 150px;
+	line-height: 150px;
+}
+
+#mask {
+	display: none;
+	background: #000; 
+	position: fixed; left: 0; top: 0; 
+	z-index: 10;
+	width: 100%; height: 100%;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+.login-popup{
+	display:none;
+	background: #34564f;
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999; /* CSS3 */
+    -moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close { Position the close button
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+.textbox{ 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.signin p, form.signin span { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input { 
+	background:white; 
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:black; 
+        border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+	font:13px Arial, Helvetica, sans-serif;
+	padding:6px 6px 4px;
+	width:200px;
+}
+
+form.signin .textbox label { 
+    display:block; 
+    padding-bottom:7px; 
+}

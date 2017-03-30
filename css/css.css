@@ -1,0 +1,87 @@
+table {
+    display: table;
+    font: 90%/1.5em "Lucida Grande", Geneva,
+                    "DejaVu Sans", "Bitstream Vera Sans", AnjaliOldLipi,
+                    "Lucida sans", "Trebuchet MS", Arial, Verdana;
+    text-align: center;
+     
+    border-spacing: 0;
+  
+    border-radius: 12px;
+    
+    background: white;
+}
+ 
+th {
+    color: #fff;
+	padding-top : 5px; 
+	background : #40A497;
+    font-size: 110%;
+    /*text-shadow: #6a3d37 4px 4px 4px*/
+}
+ 
+    th:first-of-type {
+        font-weight: bold;		
+        font-style: italic;
+		padding-bottom : 20px; 
+		padding-top : 20 px;
+    }
+ 
+tr:nth-child(odd) {
+    color: black;
+    background: white;
+	padding-bottom : 20px; 
+	padding-top : 20 px;
+}
+ 
+tr:nth-child(even) {
+    color: black;
+	background: white;
+	padding-bottom : 20px; 
+	padding-top : 20 px;
+}
+ 
+th:first-of-type,
+td:first-of-type {
+    padding: 0 0 0 4em; 
+	padding-bottom : 10px; 
+	padding-top : 10 px; 
+	/*padding-left : 100px; */
+}
+ 
+ td {
+    padding: 0 0 0 4em; 
+	padding-bottom : 10px; 
+	padding-top : 10 px; 
+	
+}
+ 
+ th {
+    padding: 0 0 0 4em; 
+	padding-bottom : 10px; 
+	padding-top : 10 px; 
+	
+}
+ 
+th:last-of-type,
+td:last-of-type {
+    padding: 0  4em 0 4em;
+	padding-bottom : 10px; 
+	padding-top : 10 px;
+	
+}
+
+ /*
+tr:nth-last-child(-n+2) {
+    opacity: .75;
+	padding-bottom : 20px; 
+	padding-top : 20 px;
+}
+ 
+tr:nth-child(3n+1):not(:last-child) td {
+    text-shadow: red 0 0 8px;
+	padding-bottom : 20px; 
+	padding-top : 20 px;
+}*/
+
+

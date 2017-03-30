@@ -1,0 +1,76 @@
+#corps
+{
+	margin: 0 auto;
+	width: 40%;
+}
+
+.caroussel{
+	margin-bottom:12px;
+	margin-top:12px;
+	border-width:1px;
+ 	border-style:dotted;
+ 	border-color:black;
+}
+
+#caroussel{
+	text-align:center;
+}
+
+#suivant{
+	float:right;
+	width:50px;
+}
+
+#precedant{
+	float:left;
+	width:50px;
+}
+
+.error{
+	font-size:1em;
+	font-family:Arial;
+	color:red;
+}
+
+
+.titre{
+	color:blue;
+	font-size: 30; 
+	font-family:Arial;
+}
+
+.description{
+	color:green;
+	font-family:Verdana;
+}
+
+/*Les images du caroussel*/
+.image{
+	width:90px;
+	height:60px;
+	margin-top:10px;
+}
+
+.img_panier{
+	width:20px;
+	height:20px;
+}
+
+
+.table_desc{
+	font-size: 11;
+	font-family:Verdana;
+}
+
+.td_vert{
+	background-color:#B5E655;
+}
+
+.td_rouge{
+	background-color:#CC1231;
+}
+
+#select_nb_animaux {
+   background: transparent;
+}
+

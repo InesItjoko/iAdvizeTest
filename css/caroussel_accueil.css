@@ -1,0 +1,44 @@
+#corps
+{
+	margin: 0 auto;
+	width: 40%;
+}
+
+.caroussel{
+	margin-bottom:12px;
+	margin-top:14px;
+	border-width:1px;
+ 	border-style:dotted;
+ 	border-color:black;
+}
+
+#caroussel{
+	text-align:center;
+}
+
+#suivant{
+	float:right;
+	width:50px;
+}
+
+#precedant{
+	float:left;
+	width:50px;
+}
+
+.image_category{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.error{
+	font-size:1em;
+	font-family:Arial;
+	color:red;
+}
+
+.titre{
+	font-size: 30; 
+	font-family:Arial;
+}
+
