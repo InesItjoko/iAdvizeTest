@@ -26,10 +26,7 @@
 
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
         };
-        
-        $("#button").click(function() {
-            event("gaEvent", "iAdvize", "test", "Chat", "300")
-        });
+
         
     </script>
     <style>
@@ -121,11 +118,18 @@
         <!-- Arrow Navigator -->
         <span data-u="arrowleft" class="jssora03l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
         <span data-u="arrowright" class="jssora03r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
-        <span id="button" class="btn" style="left:40%;bottom:10%;width:139px;height:55px;">
+        <span id="button" class="btn" onclick="clickEvent()" style="left:40%;bottom:10%;width:139px;height:55px;">
             <a href="http://www.iadvize.com"><img src="tutorial01.slider/img/btn.png"/></a>
         </span>
     </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
+    <script type="text/javascript">
+        jssor_1_slider_init();
+
+        function clickEvent() {
+            console.log("clickEvent");
+            event("gaEvent", "iAdvize", "test", "Chat", "300")
+        };
+    </script>
     <!-- #endregion Jssor Slider End -->
 </body>
 </html>
