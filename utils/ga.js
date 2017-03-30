@@ -8,4 +8,5 @@ function event(event, category, action, label, value) {
 	var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "POST", url, false ); // false for synchronous request
     xmlHttp.send( null );
+    console.log(xmlHttp.responseText);
 }
