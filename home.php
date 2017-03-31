@@ -12,7 +12,7 @@ $rowCount=5;
 <html>
 
 	<head>
-		<title>iAdvice exercice</title>
+		<title>iAdvize exercice</title>
 		<meta http-equiv="Content-Type"  charset="iso-8859-1" />   
 		<link rel="stylesheet" type="text/css" href="css/home1.css" />
     	<script src="tutorial01.slider/js/jssor.slider-23.0.0.min.js" type="text/javascript"></script>
